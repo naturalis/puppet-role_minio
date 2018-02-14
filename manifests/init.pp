@@ -67,7 +67,7 @@ class role_minio (
     provider  => 'git',
     user      => 'root',
     revision  => 'master',
-    require   => Package['git'],
+    #    require   => Package['git'],
   }
 
 	docker_network { 'web':
