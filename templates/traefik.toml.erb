@@ -25,3 +25,6 @@ email = "<%= @lets_encrypt_mail %>"
 storage = "acme.json"
 entryPoint = "https"
 OnHostRule = true
+acmeLogging = true
+  [acme.httpChallenge]
+  entryPoint = "http"
